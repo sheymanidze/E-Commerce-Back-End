@@ -37,6 +37,20 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a tag's name by its `id` value
+  try {
+    const tagInfo = await Tag.update(req.body, {
+      where: {
+        id: req.params.id,
+      },
+    });
+    if (!tagInfo) {
+      res.status(404).json({ message: 'ID you provided does not match any category' });
+      return;
+    }
+    res.status(200).json(tagInfo);
+  } catch (err) {
+    res.status(500).json(err)
+  }
 });
 
 router.delete('/:id', (req, res) => {
