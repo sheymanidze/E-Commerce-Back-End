@@ -13,12 +13,31 @@
 
 # General Info
 
+  Application provides back end for company’s e-commerce website.
+
+
+
 # Specifics
+
+
+
 
 # Video Link 
 
+ You can view a demo of E-Commerce Back End by following the link 
+
+ []()
+
 # Application Code
 
+ To view application code, please follow the link 
+
+ [https://github.com/sheymanidze/E-Commerce-Back-End](https://github.com/sheymanidze/E-Commerce-Back-End)
+
+
+
 # Screenshots
+
+ ![]()
 
 # Comments

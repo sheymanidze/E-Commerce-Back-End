@@ -18,6 +18,10 @@ router.get('/', async (req, res) => {
   //     console.log(err)
   //     res.status(500).json(err);
   //   })
+  //   res.status(200).json(tagInfo);
+  // } catch (err) {
+  //   res.status(500).json(err);
+  // }
   try {
     const tagInfo = await Tag.findAll({
       include: [{ model: Product }],
