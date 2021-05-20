@@ -19,6 +19,7 @@
 
 # Specifics
 
+  Application allows to connect user to database. Using Insomnia/Postman user is  able to update, create, and delete data in database.
 
 
 
@@ -27,6 +28,7 @@
  You can view a demo of E-Commerce Back End by following the link 
 
  []()
+
 
 # Application Code
 
