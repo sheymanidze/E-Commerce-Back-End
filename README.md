@@ -40,6 +40,25 @@
 
 # Screenshots
 
- ![]()
+
+ Example of all available/created commands in Postman
+
+ ![Example of all available commands in Postman](images/postman_list.png)
+
+ Example of "Post" in products
+
+ ![Post Products](images/post_product.png)
+
+ Example of "Put" in products
+
+ ![Put Products](images/put_product.png)
+
+ Unexisting or deleted id
+
+ ![message wrong id](images/delete_wrong.png)
+
+
 
 # Comments
+
+  Creating front end for the application will bring to the user more pleasant and easiest way to interact. Creating front end for the application will bring to the user more pleasant and easiest way to interact. In the future different data can be added in order to increase functionality of application from user perspective.  
